@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="/tail.css" rel="stylesheet">
+
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body class="bg-black-lighter">
+    <div class=" h-full md:h-screen sm:h-screen flex justify-center items-center">
+      <!-- card -->
+      <div class="bg-purple-stale w-full m-10 md:w-3/4  md:flex  justify-between  rounded ">
+        
+        <div class="mix-blend-overlay opacity-70 sm:hidden">
+          <img class="rounded-r" src="images/image-header-desktop.jpg" alt="">
+        </div> 
+        <!-- left -->
+        <div class="bg-blue-midnight flex flex-col justify-center items-center">
+          <!-- top call to action -->
+          <div class="m-9  ">
+            <h1 class="text-white text-3xl font-bold inline">Get</h1> <h1 class="text-purple-600 text-3xl font-bold inline"> insights </h1> <h1 class="text-white text-3xl font-bold inline">that help your business grow.</h1>
+            <p class="text-gray-300 my-4">
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </p>
+          </div>
+
+          <!-- bottom stats -->
+          <div class="md:flex mb-5">
+            <div class="mx-5 text-white">
+              <h4 class="font-bold text-xl">10k+</h4>
+              <p class="text-gray-400">companies</p>
+            </div>
+
+            <div class="mx-5 text-white">
+              <h4 class="font-bold text-xl">314</h4>
+              <p class="text-gray-400">templates</p>
+            </div>
+
+            <div class="mx-5 text-white">
+              <h4 class="font-bold text-xl">12m+</h4>
+              <p class="text-gray-400">queries</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- right --> 
+        <div class=" mix-blend-overlay opacity-70 hidden md:w-full md:flex ">
+          <img class="rounded-r" src="images/image-header-desktop.jpg" alt="">
+        </div>
+      </div>
+      <!-- <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div> -->
+    </div>  
+  </body>
+</html>
